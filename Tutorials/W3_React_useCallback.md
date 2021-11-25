@@ -4,7 +4,7 @@
 
 ### React useCallbackHook은 메모화된 콜백 함수를 반환합니다.
 
-memoization을 다시 계산할 필요가 없도록 값을 캐싱하는 것으로 생각하십시오.
+    memoization을 다시 계산할 필요가 없도록 값을 캐싱하는 것으로 생각하십시오.
 
 이를 통해 리소스 집약적인 기능을 분리하여 모든 렌더링에서 자동으로 실행되지 않도록 할 수 있습니다.
 
@@ -12,7 +12,7 @@ useCallback후크는 종속성 업데이트의 경우 하나를 실행합니다.
 
 이렇게 하면 성능이 향상될 수 있습니다.
 
-useCallback와 useMemo후크는 유사하다. 주요 차이점은 useMemo메모화된 값 을 useCallback반환하고 메모화된 함수를 반환한다는 것 입니다.
+    useCallback와 useMemo후크는 유사하다. 주요 차이점은 useMemo메모화된 값 을 useCallback반환하고 메모화된 함수를 반환한다는 것 입니다.
 
 ### 문제점
 
